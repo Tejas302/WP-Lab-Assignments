@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        .content {
+            padding: 10px;
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact-info div {
+            flex: 1;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .contact-info {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>John Doe</h1>
+            <div class="contact-info">
+                <div>
+                    <p>Email: tejaswaghmare4442@gmail.com</p>
+                </div>
+                <div>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+                <div>
+                    <p>Location: Pimpri Chinchwad</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Objective</h2>
+            <div class="content">
+                <p>A passionate IT Security Analyst pursuing a Bachelor's in Artificial Intelligence, aiming to combine cybersecurity expertise with AI/ML to develop innovative solutions and contribute to the field.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="content">
+                <ul>
+                    <li><strong>Bachelor's in Artificial Intelligence</strong> - PCU University (2024-Present)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Experience</h2>
+            <div class="content">
+                <ul>                                                                                                                                                                                               <li><strong>Studying my Bachelor's degree courses </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">12th</h2>
+            <div class="content">
+                <p>Got 80% in 12th</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="content">
+                <ul>
+                    <li>Cybersecurity</li>
+                    <li>AI/ML</li>
+                    <li>Vulnerability Scanning</li>
+                    <li>Python, JavaScript</li>
+                    <li>Penetration Testing</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Languages</h2>
+            <div class="content">
+                <ul>
+                    <li>English (Fluent)</li>
+                    <li>Hindi (Fluent)</li>
+                    <li>Marathi (Fluent)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+.grid-container {
+display: grid;
+grid-template-columns: auto auto;
+background-color: #2196F3;
+padding: 10px;
+}
+.grid-item {
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid rgba(0,0,0,0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+}
+</style>
+</head> 
+<body>
+
+<div class="grid-container">
+<a class= "grid-item" target="_blank" href="CR.webp">
+<img src="CR.webp" alt="I am the greatest Player of All Time SUII" width="600" height="400">
+</a>
+<a class= "grid-item" target="_blank" href="Messi.webp">
+<img src="Messi.webp" alt="I am the Winner of Many Ballon d'ors" width="600" height="400">
+</a>
+<a class= "grid-item" target="_blank" href="Be.jpeg">
+<img src="Be.jpg" alt="I am the best Midfielder in Real Madrid FC" width="600" height="400">
+</a>
+<a class= "grid-item" target="_blank" href="Neymar.jpg">
+<img src="Neymar.jpg" alt="I am a Brazilian Player who has half of the injuries present" width="600" height="400">
+</a>
+</div>
+
+</body>
+</html>
