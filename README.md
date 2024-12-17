@@ -1,2 +1,2 @@
 # WP-Lab-Assignments
-Below are the Lab Assignments of WP and the combined writeups in Word Document
+I have attached the lab assignments for WP with the writeups in a Word document. Thank you
